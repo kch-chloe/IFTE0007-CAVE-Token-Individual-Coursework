@@ -1,5 +1,11 @@
 # CAVE Token — Chateau Access and Vintage Entitlement
 
+**Module:** IFTE0007 Decentralised Finance and Blockchain, UCL  
+**Network:** Sepolia Testnet  
+**Compiler:** Solidity 0.4.21  
+
+---
+
 ## Overview
 
 CAVE is an ERC-20 fungible token representing a tokenised claim on the annual wine revenue stream and direct purchase entitlement rights of Château Margaux, Bordeaux, France. It embeds two independent economic rights within a single token:
