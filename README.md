@@ -29,7 +29,7 @@ Both parameters are hardcoded as immutable constants and cannot be altered after
 ## Key Design Features
 
 - **OpenZeppelin ERC-20** — standard transfer, approve, allowance, and balanceOf functions inherited automatically
-- **Decimals = 0** — one token represents one bottle of production — no fractional tokens
+- **Decimals = 0** — no fractional tokens
 - **Vintage year stamping** — `_update()` override stamps each recipient with the current vintage year on every token transfer, preventing previous cycle tokens from claiming current cycle rights
 - **Independent rights activation** — entitlement right activated separately from revenue loading via `activateEntitlement()`
 - **Immutable constants** — `DISTRIBUTION_PERCENTAGE = 30` and `DISCOUNT_BPS = 2000` cannot be changed by anyone after deployment
