@@ -18,14 +18,6 @@ Both parameters are hardcoded as immutable constants and cannot be altered after
 
 ---
 
-## Contract File
-
-| File | Description |
-|---|---|
-| `contracts/EIP20_CAVE.sol` | Main CAVE token contract — inherits OpenZeppelin ERC-20 |
-
----
-
 ## Key Design Features
 
 - **OpenZeppelin ERC-20** — standard transfer, approve, allowance, and balanceOf functions inherited automatically
