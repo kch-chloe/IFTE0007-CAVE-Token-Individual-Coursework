@@ -47,7 +47,7 @@ Both parameters are hardcoded as immutable constants and cannot be altered after
 
 Each cycle mirrors Château Margaux's natural production calendar:
 
-1. Admin calls `mintVintage()` after harvest — 298,000 tokens minted to admin wallet
+1. Admin calls `mintVintage()` after harvest — (e.g., 298,000) tokens minted to admin wallet
 2. Admin distributes tokens to investors via standard ERC-20 `transfer()`
 3. Admin calls `activateEntitlement()` — eligible holders can exercise their discount
 4. Admin calls `loadRevenue()` after vintage sale — distribution right activated
