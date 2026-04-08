@@ -45,7 +45,7 @@ Both parameters are hardcoded as immutable constants and cannot be altered after
 
 ## Demonstration 
 
-The `claimDistribution()` and `useEntitlement()` functions were not demonstrated on the Sepolia testnet, as both are more appropriately tested through separate investor wallets in order to reflect the intended distinction between holder and administrator roles. Their logic remains verifiable from the deployed contract interface and the smart contract source code on GitHub. Accordingly, the testnet demonstration focuses on selected lifecycle functions that were practical to execute within a single-wallet prototype environment, namely `mintVintage(year, supply)` and `activateEntitlement()`.
+The `claimDistribution()` and `useEntitlement()` functions were not demonstrated on the Sepolia testnet, as both are more appropriately tested through separate investor wallets in order to reflect the intended distinction between holder and administrator roles. Accordingly, the testnet demonstration focuses on selected lifecycle functions that were practical to execute within a single-wallet prototype environment, namely `mintVintage(year, supply)` and `activateEntitlement()`.
 
 The following functions were called on the Sepolia testnet to demonstrate the prototype:
 
